@@ -5,7 +5,7 @@ def failIfNoTests = ""
 try {
   failIfNoTests = ITEST_FAIL_IF_NO_TEST
 } catch (Throwable e) {
-  failIfNoTests = "false"
+  failIfNoTests = "false" 
 }
 
 def localItestPattern = ""
